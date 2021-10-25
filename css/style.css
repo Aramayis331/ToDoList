@@ -1,0 +1,119 @@
+body {
+	background: linear-gradient(90deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
+}
+.container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.divAddToDoList {
+	background: linear-gradient(45deg, #405de6, #5851db, #833ab4);
+	padding: 25px;
+	border-radius: 15px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 10px;
+	min-width: 30%;
+}
+.divTextEror {
+	background: linear-gradient(45deg, #405de6, #5851db, #833ab4);
+	padding: 10px;
+	border-radius: 15px;
+	margin-top: 10px;
+	min-width: 32%;
+	display: none;
+	text-align: center;
+}
+.textEror {
+	margin: 0;
+}
+.inputAddToDoList {
+	padding: 10px;
+	cursor: pointer;
+	border-radius: 5px;
+	width: 60%;
+	background-color:#5851db;
+	border: 1px solid #000000;
+	font-size: 16px;
+}
+.inputAddToDoList::placeholder {
+	color: #000000;
+}
+.btnAddList {
+	padding: 10px 15px;
+	cursor: pointer;
+	border-radius: 5px;
+	background-color:#5851db;
+	color: #000000;
+	border: 1px solid #000000;
+}
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active  {
+	border: none !important;
+	-webkit-text-fill-color: #000000;
+	-webkit-box-shadow: 0 0 0px 1000px #5851db inset;
+}
+.divToDoList {
+	margin-top: 50px;
+	background: linear-gradient(45deg, #405de6, #5851db, #833ab4);
+	padding: 25px;
+	border-radius: 15px;
+	min-width: 30%;
+}
+.divElToDoList {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+	padding: 5px 0px;
+	border-bottom: 1px solid #000000;
+}
+.divIconCheckEl {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.textEl {
+	margin: 0;
+	cursor: pointer;
+	text-align: center;
+	font-size: 17px;
+}
+.input_checkbox {
+	display: none;
+}
+.chechbox_label::before {
+	content: "";
+	display: inline-block;
+	width: 15px;
+	height: 15px;
+	border: 2px solid #000000;
+	background: transparent;
+	vertical-align: sub;
+	cursor: pointer;
+}
+.input_checkbox:checked + .chechbox_label::before {
+	background-image: url(../images/galochka.webp);
+	background-repeat: no-repeat;
+	background-position-y: 4px;
+	background-position-x: 1px;
+	background-size: 90%;
+}
+.chechbox_label {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.divTextEl {
+	padding: 0px 10px 0px 10px;
+}
+
+.iconDel { 
+	cursor: pointer;
+}
+.addClassCheckBox {
+	text-decoration: line-through;
+	opacity: 0.6;
+}
