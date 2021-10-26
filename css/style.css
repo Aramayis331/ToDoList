@@ -30,6 +30,7 @@ body {
 }
 .inputAddToDoList {
 	padding: 10px;
+	outline: none;
 	cursor: pointer;
 	border-radius: 5px;
 	width: 60%;
@@ -67,8 +68,9 @@ input:-webkit-autofill:active  {
     display: flex;
     justify-content: space-between;
     align-items: center;
-	padding: 5px 0px;
-	border-bottom: 1px solid #000000;
+    padding: 5px 5px;
+    margin: 10px 0px;
+    border: 2px solid #000000;
 }
 .divIconCheckEl {
     display: flex;
@@ -80,28 +82,15 @@ input:-webkit-autofill:active  {
 	cursor: pointer;
 	text-align: center;
 	font-size: 17px;
+	color: #000000;
 }
 .input_checkbox {
 	display: none;
 }
-.chechbox_label::before {
-	content: "";
-	display: inline-block;
-	width: 15px;
-	height: 15px;
-	border: 2px solid #000000;
-	background: transparent;
-	vertical-align: sub;
+.divChecked {
+	width: 18px;
+	height: 18px;
 	cursor: pointer;
-}
-.input_checkbox:checked + .chechbox_label::before {
-	background-image: url(../images/galochka.webp);
-	background-repeat: no-repeat;
-	background-position-y: 4px;
-	background-position-x: 1px;
-	background-size: 90%;
-}
-.chechbox_label {
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -109,11 +98,18 @@ input:-webkit-autofill:active  {
 .divTextEl {
 	padding: 0px 10px 0px 10px;
 }
-
 .iconDel { 
 	cursor: pointer;
 }
 .addClassCheckBox {
 	text-decoration: line-through;
-	opacity: 0.6;
+	opacity: 0.4;
+	background-color: #405de6;
+	border-radius: 5px;
+}
+.dragging {
+	opacity: 0.5;
+}
+.hovered {
+	background-color: #c13584;
 }
