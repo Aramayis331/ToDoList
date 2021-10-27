@@ -107,9 +107,3 @@ input:-webkit-autofill:active  {
 	background-color: #405de6;
 	border-radius: 5px;
 }
-.dragging {
-	opacity: 0.5;
-}
-.hovered {
-	background-color: #c13584;
-}
