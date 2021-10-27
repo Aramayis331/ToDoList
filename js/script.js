@@ -80,7 +80,7 @@ function refreshList() {
 
 		htmlCatalog += `
 
-			<div class='divElToDoList' draggable='true'>
+			<div class='divElToDoList'>
 				<div class='divIconCheckEl'>
 					<div class='divChecked'>
 						<i class="fas fa-check iconChecked"></i>
