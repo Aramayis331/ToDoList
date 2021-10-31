@@ -1,7 +1,7 @@
 @media only screen and (max-width: 480px) {
 	.divToDoList {
 		margin-top: 10px;
-		padding: 15px;
+		padding: 5px 15px;
 	}
 	.divAddToDoList  {
 		padding: 15px;
