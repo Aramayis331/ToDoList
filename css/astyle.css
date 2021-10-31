@@ -1,0 +1,33 @@
+@media only screen and (max-width: 480px) {
+	.divToDoList {
+		margin-top: 10px;
+		padding: 15px;
+	}
+	.divAddToDoList  {
+		padding: 15px;
+	}
+	.inputAddToDoList {
+		padding: 6px;
+		font-size: 14px;
+	}
+	.btnAddList {
+		padding: 6px 10px;
+		font-size: 14px;
+	}
+	.textEl  {
+		font-size: 14px;
+	}
+	.divIconDel i {
+		font-size: 14px;
+	}
+	.divChecked i {
+		font-size: 14px;
+	}
+	.divElToDoList {
+		padding: 3px 3px;
+	}
+	.textEror {
+		font-size: 14px;
+	}
+
+}

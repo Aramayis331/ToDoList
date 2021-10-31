@@ -20,7 +20,7 @@ body {
 	background: linear-gradient(45deg, #405de6, #5851db, #833ab4);
 	padding: 10px;
 	border-radius: 15px;
-	margin-top: 10px;
+	margin-top: 20px;
 	min-width: 32%;
 	display: none;
 	text-align: center;
@@ -58,7 +58,7 @@ input:-webkit-autofill:active  {
 	-webkit-box-shadow: 0 0 0px 1000px #5851db inset;
 }
 .divToDoList {
-	margin-top: 50px;
+	margin-top: 20px;
 	background: linear-gradient(45deg, #405de6, #5851db, #833ab4);
 	padding: 25px;
 	border-radius: 15px;
